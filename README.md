@@ -1,45 +1,65 @@
 # Process Optimization and Simulation in Chemical Engineering (2010-2020)
 
 ## Overview
-This repository documents various simulation and process optimization projects I worked on during my BSc, MSc and work experiences in Chemical Engineering, with a focus on process improvements and computational modeling. Over the years, I utilized several advanced engineering software tools such as **MATLAB**, **Aspen HYSYS**, and **ANSYS Fluent** to solve complex chemical engineering problems related to fluid dynamics, process optimization, and system efficiency.
+This repository documents various simulation and process optimization projects I worked on during my BSc, MSc, and professional experiences in chemical engineering, with a focus on process improvements and computational modeling. Over the years, I utilized advanced engineering software tools such as **MATLAB**, **Aspen HYSYS**, **ANSYS Fluent**, **OpenFOAM**, and **LIGGGHTS** to solve complex chemical engineering problems related to fluid dynamics, process optimization, energy efficiency, and system performance.
 
 ### Purpose
-The main goal of these projects was to simulate and optimize industrial processes using various computational tools, improving performance, safety, and sustainability. This included developing **computational fluid dynamics (CFD)** models, conducting **process optimizations**, and exploring new methods to enhance process efficiency in chemical systems.
+The primary goal of these projects was to optimize and simulate industrial chemical processes, improving performance, safety, and sustainability. This includes work on **Computational Fluid Dynamics (CFD)**, **CFD-DEM coupling**, and finite element methods, focusing on applications such as two-phase fluid simulations, renewable energy systems, and solving the **Navier-Stokes** equations for heat and mass transfer.
 
 ---
 
 ## Technologies and Tools Used
-The following tools and software were crucial in these projects:
+The following tools and software were utilized throughout these projects:
 
-- **ANSYS Fluent**: Used for creating detailed **Computational Fluid Dynamics (CFD)** models to simulate fluid flows and heat/mass transfer in complex systems.
+- **ANSYS Fluent**: Used for detailed **CFD** modeling of fluid flows, heat transfer, and chemical reactions in complex systems.
   
-- **MATLAB**: Utilized for mathematical modeling, process simulation, and optimization. Various optimization techniques were applied to chemical engineering processes.
+- **MATLAB**: Utilized for process simulation and optimization. MATLAB was also used to solve **Navier-Stokes equations** using the finite element method for velocity and heat transfer analysis.
 
-- **Aspen HYSYS**: A powerful tool for **process simulation** and optimization. It allowed detailed analysis of chemical processes and energy balances, ensuring process improvements.
+- **Aspen HYSYS**: A powerful process simulation tool used to optimize chemical processes, including reactor design and energy balances.
 
-- **Gambit**: Used as the pre-processor for **CFD simulations**, where I developed the mesh geometries for fluid dynamic simulations.
+- **OpenFOAM**: Used for **CFD** simulations, particularly in two-phase flow systems and **solar chimney** modeling.
+
+- **LIGGGHTS**: Employed for **Discrete Element Method (DEM)** simulations, particularly in **CFD-DEM coupling** for simulating fluid-particle interactions.
 
 ---
 
 ## Key Project Highlights
 
 ### 1. Computational Fluid Dynamics (CFD) Simulations
-CFD was a key focus of my research, where I modeled complex fluid flow scenarios using **ANSYS Fluent** and **Gambit**. These simulations allowed me to understand and optimize the behavior of chemical processes under different operating conditions, such as:
+The following projects focused on CFD modeling to solve fluid dynamics and heat transfer challenges in chemical engineering:
 
-- Multiphase flow systems.
-- Heat and mass transfer in reactors.
-- Optimization of industrial equipment efficiency.
+- **CFD Simulation of Two-Phase Fluid Systems**:
+   - Simulated complex multiphase fluid flows, including gas-liquid and liquid-solid interactions.
+   - Applications include chemical reactors and separation processes.
+
+- **CFD Simulation of Solar Chimney for Electricity Generation**:
+   - Simulated the flow of air within a solar chimney to assess its efficiency in generating electricity through solar-induced airflow.
+   - Studied various parameters such as chimney height, solar intensity, and airflow rates to optimize the energy output.
+
+- **Finite Element Method for Solving Navier-Stokes Equations**:
+   - Developed MATLAB code to solve **Navier-Stokes equations** for fluid flow and heat transfer using finite element methods.
+   - Applied to various engineering problems, including velocity field and heat transfer in pipes, channels, and heat exchangers.
 
 ### 2. Process Optimization Projects
-Process optimization played a critical role in improving chemical engineering systems. I worked extensively with **MATLAB** and **Aspen HYSYS** to:
+Process optimization played a key role in improving chemical engineering systems:
 
-- Optimize chemical reactions and process pathways.
-- Minimize energy consumption and maximize process output.
-- Analyze and optimize reactor designs for enhanced performance.
-  
-Some examples include optimizing distillation columns, reaction systems, and separation processes to achieve better yields and reduce energy use.
+- **MATLAB Optimization for Chemical Processes**: Various optimization techniques were applied in MATLAB for improving process efficiency and minimizing energy use in reactors, separation units, and heat exchangers.
+
+- **Aspen HYSYS Process Simulations**: Optimized the performance of distillation columns, reactors, and heat exchangers to achieve better yields and reduced energy consumption in chemical plants.
+
+### 3. CFD-DEM Coupling for Magnetorheological Fluid Simulation
+A significant part of my research involved coupling **CFD** (using **OpenFOAM**) with **DEM** (using **LIGGGHTS**) to model the behavior of magnetorheological fluids (MRF). This included:
+
+- **CFD-DEM Simulation of Particle-Fluid Interactions**:
+   - Simulated particle-fluid interactions under the influence of magnetic fields using **CFD-DEM coupling**.
+   - Investigated the rheological properties of magnetorheological fluids, such as shear stress and dynamic yield stress.
+
+#### Reference:
+This work builds on my paper, **"Numerical Investigation of Magnetorheological Fluid Behavior Using CFD-DEM Coupling"**, which explores the use of **OpenFOAM** and **LIGGGHTS** to simulate fluid-particle interactions in the presence of magnetic fields. The paper can be accessed [here](https://arc.aiaa.org/doi/epdf/10.2514/1.T5656).
 
 ---
 
 ## Acknowledgments
-This work was completed as part of my academic journey at the **University of Tehran** and the **Iran University of Science and Technology (IUST)** and work experiences in different engineering companies. The projects in this repository reflect my deep interest in combining simulation and optimization techniques to tackle real-world chemical engineering challenges.
+This work was conducted as part of my research at the **University of Tehran** and **Iran University of Science and Technology (IUST)**, and professional work at engineering companies. The projects reflect my passion for combining simulation, optimization, and advanced mathematical techniques to tackle real-world chemical engineering challenges.
+
+Feel free to explore the repository and reach out if you have any questions or wish to collaborate on similar projects.
