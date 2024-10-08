@@ -19,7 +19,7 @@ The following tools and software were utilized throughout these projects:
 
 - **OpenFOAM**: Used for **CFD** simulations, particularly in two-phase flow systems and **solar chimney** modeling.
 
-- **LIGGGHTS**: Employed for **Discrete Element Method (DEM)** simulations, particularly in **CFD-DEM coupling** for simulating fluid-particle interactions.
+- **LIGGGHTS**: Employed for **Discrete Element Method (DEM)** simulations, particularly in **CFD-DEM coupling** for simulating fluid-particle interactions in the presence of a magnetic field.
 
 ---
 
