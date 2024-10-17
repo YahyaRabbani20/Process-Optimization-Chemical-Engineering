@@ -1,10 +1,10 @@
 # Process Optimization and Simulation in Chemical Engineering (2010-2020)
 
 ## Overview
-This repository documents various simulation and process optimization projects I worked on during my BSc, MSc, and professional experiences in chemical engineering, with a focus on process improvements and computational modeling. Over the years, I utilized advanced engineering software tools such as **MATLAB**, **Aspen HYSYS**, **ANSYS Fluent**, **OpenFOAM**, and **LIGGGHTS** to solve complex chemical engineering problems related to fluid dynamics, process optimization, energy efficiency, and system performance.
 
-### Purpose
-The primary goal of these projects was to optimize and simulate industrial chemical processes, improving performance, safety, and sustainability. This includes work on **Computational Fluid Dynamics (CFD)**, **CFD-DEM coupling**, and finite element methods, focusing on applications such as two-phase fluid simulations, renewable energy systems, and solving the **Navier-Stokes** equations for heat and mass transfer.
+This repository contains documentation on various simulation and process optimization projects I worked on during my BSc, MSc, and professional experiences in chemical engineering, with a focus on process improvements and computational modeling. Over the years, I have utilized advanced engineering software tools such as **MATLAB**, **Aspen HYSYS**, **ANSYS Fluent**, **OpenFOAM**, and **LIGGGHTS** to solve complex chemical engineering problems related to fluid dynamics, process optimization, energy efficiency, and system performance.
+
+In most of my projects, the goal was to optimize and simulate industrial chemical processes and improve performance. This includes work on **Aspen HYSYS process simulation**, **Computational Fluid Dynamics (CFD)**, and **CFD-DEM coupling**, with a focus on simulating fluid flow, heat, and mass transfer in complex systems.
 
 ---
 
