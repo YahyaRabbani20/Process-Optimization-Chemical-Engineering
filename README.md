@@ -42,7 +42,6 @@ The following projects focused on CFD modeling to solve fluid dynamics and heat 
    - Applied to various engineering problems, including velocity field and heat transfer in pipes, channels, and heat exchangers.
 
 ### 2. Process Optimization Projects
-Process optimization played a key role in improving chemical engineering systems:
 
 - **Aspen HYSYS Process Simulations**: Optimized the performance of distillation columns, reactors, and heat exchangers in different systems and subsystems in plants to achieve better yields and reduced energy consumption in chemical plants.
 
