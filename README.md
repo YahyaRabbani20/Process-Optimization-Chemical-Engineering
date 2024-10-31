@@ -1,4 +1,4 @@
-# Process Optimization and Simulation in Chemical Engineering (2010-2020)
+# Process Optimization and Simulation in Chemical Engineering
 
 ## Overview
 
